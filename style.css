@@ -429,11 +429,11 @@ footer {
     font-size: 2rem;
   }
   .nav-links {
-    flex-direction: column;
+    flex-direction: flex;
     gap: 10px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .scooter-section {
     flex-direction: column;
     align-items: center;
@@ -453,40 +453,20 @@ footer {
 }
 @media (max-width: 400px) {
   .navbar {
-    flex-direction: column;
+    flex-direction: flex;
     gap: 10px;
     padding: 15px 20px;
   }
-}
-@media (max-width: 350px) {
-  .hero-text h1 {
-    font-size: 1.5rem;
+   .scooter-section {
+    flex-direction: column;
+    align-items: center;
   }
-  .btn {
-    padding: 10px 20px;
-    font-size: 0.9rem;
+  .models {
+    flex-direction: column;
+    align-items: center;
   }
-}
-@media (max-width: 320px) {
-  .scooter-card {
-    width: 100%;
-  }
-  .model-card {
-    width: 100%;
-  }
-  .service-card {
-    width: 100%;
+  .service-section {
+    flex-direction: column;
+    align-items: center;
   }
 }
-@media (max-width: 250px){
-  .scooter-card {
-    width: 100%;
-  } 
-  .model-card {
-    width: 100%;
-  }
-  .service-card {
-    width: 100%;
-  }
-}
-
