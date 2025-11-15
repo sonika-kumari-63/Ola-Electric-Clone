@@ -18,7 +18,6 @@ This project is a front-end-only clone of the Ola Electric homepage. It contains
 This clone helps users learn **webpage structuring, UI styling, responsive layouts, and component-based design.**
 
 ## Technologies Used
-
 ### **1. HTML5**
 Used for content structure:
 * Semantic sections
@@ -35,16 +34,13 @@ Used for styling and responsiveness:
 * Media queries for mobile
 
 ##  Folder Structure
-
 Ola-Electric-Clone
-
 *index.html          
 *style.css           
 *images/            
 
 ##  File Explanation
 ### **index.html**
-
 Your HTML file contains:
 #### **1. Navbar**
 * Fixed at the top
@@ -73,86 +69,69 @@ Three models:
 * Roadster X
 * Roadster X+
 * Roadster
-
 With hover animations and CTA buttons.
 
 #### **5. Service Center Section**
-
 Three service cards:
 * 1000+ Centers
 * AI Powered Service
 * Quick Service Guarantee
 
 #### **6. EMI Calculator Section**
-
 * Details about interest rate, tenure, processing fee
 * "Calculate EMI" button
 
 #### **7. New Gen-3 Platform Section**
-
 Large full-screen images showcasing new scooter technologies.
 
 #### **8. Global EV Hub Banner**
-
 Large typography with global EV hub message.
 
 #### **9. Footer**
-
 * Black theme footer with © 2025 message
 
-##  CSS (style.css) Breakdown
-
-Your CSS file includes:
+##  CSS (style.css) BreakdownYour CSS file includes:
 ### **1. Global Styles**
 * Reset margins, padding
 * Base font-family
 * Smooth scrolling
 
 ### **2. Navbar Styling**
-
 * Fixed position
 * Black background
 * Flexbox layout
 * Hover effects on nav items
 
 ### **3. Hero Section**
-
 * Fullscreen image
 * Overlayed text
 * Responsive text scale
 
 ### **4. Product Cards (Scooters & Motorcycles)**
-
 * Flexbox layout
 * Box-shadow and hover lift effect
 * Button styles and hover states
 
 ### **5. Service Section Cards**
-
 * Large image
 * Rounded edges
 * Clean box layout
 
 ### **6. EMI Section**
-
 * Light blue background
 * Grid-based feature boxes
 * CTA button
 
 ### **7. New-Gen / Global Sections**
-
 * Full-width banners
 * Centered text
 * Mobile-fit images
 
 ### **8. Footer**
-
 * Minimal dark footer
 
 ### **9. Media Queries**
-
 Breakpoints for:
-
 * 768px (tablet)
 * 500px (mobile)
 * 400px (small devices)
@@ -161,28 +140,21 @@ These ensure responsiveness for product cards, navbar, sections, etc.
 
 
 ## Responsive Behavior
-
 ### **Tablet (768px)**
-
 * Hero text shrinks
 * Navbar spacing reduces
 
 ### **Mobile (500px)**
-
 * Scooter cards stack vertically
 * Motorcycle section vertical
 * Service cards stack
 * EMI features become vertical
 
 ### **Small Mobile (400px)**
-
 * Navbar switches layout
 * Padding adjustments
 
----
-
 ##  Key Features
-
 *  Modern UI with clean layout
 *  Hover animations
 *  Fully responsive on all screen sizes
